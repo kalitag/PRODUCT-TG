@@ -860,14 +860,7 @@ def main():
     """Main function to run the bot"""
     config = load_config()
     TOKEN = config['bot_info']['token']
-    
-    if TOKEN == "8414049375:AAFMPUvB2u5KffNPsaAi3xu_DOiy-7dhHIg":
-        print("ERROR: Please add your actual bot token to config.json")
-        print("Get your token from @BotFather on Telegram")
-        print("Edit config.json and replace 'YOUR_BOT_TOKEN_HERE' with your token")
-        input("Press Enter to exit...")
-        return
-    
+        
     bot = ProductBot(TOKEN)
     application = Application.builder().token(TOKEN).build()
     
