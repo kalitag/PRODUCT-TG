@@ -21,6 +21,10 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+# Bot Configuration
+BOT_TOKEN = "8414049375:AAFMPUvB2u5KffNPsaAi3xu_DOiy-7dhHIg"
+BOT_USERNAME = "@Final_output_formatbot"
+
 class ProductBot:
     def __init__(self, token: str):
         self.token = token
