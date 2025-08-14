@@ -64,7 +64,7 @@ echo ================================
 echo.
 echo Next steps:
 echo 1. Get your bot token from @BotFather on Telegram
-echo 2. Edit config.json and replace "YOUR_BOT_TOKEN_HERE" with your token
+echo 2. Edit config.json and replace "8414049375:AAFMPUvB2u5KffNPsaAi3xu_DOiy-7dhHIg" with your token
 echo 3. Run the bot using: run_bot.bat
 echo.
 echo The bot will automatically process ALL product links without any commands!
