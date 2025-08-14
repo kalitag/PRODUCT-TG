@@ -1,5 +1,5 @@
 @echo off
-title Telegram Product Bot - Easy_uknowbot (FULLY AUTOMATED)
+title Telegram Product Bot - Final_output_formatbot (FULLY AUTOMATED)
 echo.
 echo ========================================
 echo  FULLY AUTOMATED Telegram Product Bot
@@ -59,7 +59,7 @@ if not errorlevel 1 (
     exit /b 1
 )
 
-echo Bot Username: @Easy_uknowbot
+echo Bot Username: @Final_output_formatbot
 echo Mode: FULLY AUTOMATED - No manual input needed!
 echo Status: Starting...
 echo.
