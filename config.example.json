@@ -1,0 +1,38 @@
+{
+  "bot_info": {
+    "name": "Your_Bot_Name",
+    "username": "@Your_Bot_Username",
+    "token": "YOUR_BOT_TOKEN_HERE",
+    "version": "1.0.0"
+  },
+  "platforms": {
+    "amazon": ["amazon.in", "amazon.com", "amzn.to", "amzn-to.co"],
+    "flipkart": ["flipkart.com", "fkrt.cc"],
+    "meesho": ["meesho.com"],
+    "myntra": ["myntra.com"],
+    "ajio": ["ajio.com"],
+    "snapdeal": ["snapdeal.com"],
+    "wishlink": ["wishlink.com"]
+  },
+  "shorteners": [
+    "cutt.ly",
+    "fkrt.cc",
+    "amzn-to.co",
+    "bitli.in",
+    "spoo.me",
+    "wishlink.com",
+    "da.gd",
+    "bit.ly",
+    "tinyurl.com"
+  ],
+  "output_formats": {
+    "meesho": "[Gender] [Quantity] [Clean Title] @[price] rs\n[URL]\n\nSize - [sizes]\nPin - [pin]\n\n@reviewcheckk",
+    "others": "[Brand] [Clean Title] from @[price] rs\n[URL]\n\n@reviewcheckk"
+  },
+  "settings": {
+    "response_timeout": 3,
+    "max_retries": 3,
+    "default_pin": "110001",
+    "price_range": [10, 100000]
+  }
+}

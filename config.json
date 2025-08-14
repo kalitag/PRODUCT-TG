@@ -1,0 +1,55 @@
+{
+  "bot_info": {
+    "name": "Easy_uknowbot",
+    "username": "@Easy_uknowbot",
+    "token": "YOUR_BOT_TOKEN_HERE",
+    "version": "1.0.0"
+  },
+  "platforms": {
+    "amazon": ["amazon.in", "amazon.com", "amzn.to", "amzn-to.co", "a.co"],
+    "flipkart": ["flipkart.com", "fkrt.cc", "dl.flipkart.com"],
+    "meesho": ["meesho.com", "meesho.app"],
+    "myntra": ["myntra.com", "myntra.app"],
+    "ajio": ["ajio.com", "ajio.app"],
+    "snapdeal": ["snapdeal.com", "snapdeal.app"],
+    "wishlink": ["wishlink.com", "wishlink.app"]
+  },
+  "shorteners": [
+    "cutt.ly",
+    "fkrt.cc",
+    "amzn-to.co",
+    "bitli.in",
+    "a.co",
+    "spoo.me",
+    "wishlink.com",
+    "da.gd",
+    "bit.ly",
+    "tinyurl.com",
+    "short.link",
+    "goo.gl",
+    "t.co",
+    "ow.ly",
+    "is.gd",
+    "buff.ly"
+  ],
+  "output_formats": {
+    "meesho": "[Gender] [Quantity] [Clean Title] @[price] rs\n[URL]\n\nSize - [sizes]\nPin - [pin]\n\n@reviewcheckk",
+    "clothing": "[Gender] [Quantity] [Clean Title] @[price] rs\n[URL]\n\n@reviewcheckk",
+    "non_clothing": "[Brand] [Clean Title] from @[price] rs\n[URL]\n\n@reviewcheckk"
+  },
+  "rules": {
+    "no_rupee_symbol": true,
+    "no_extra_words": true,
+    "skip_size_if_not_found": true,
+    "always_end_with": "@reviewcheckk"
+  },
+  "settings": {
+    "response_timeout": 3,
+    "max_retries": 3,
+    "default_pin": "110001",
+    "price_range": [10, 500000],
+    "max_urls_per_message": 3,
+    "ocr_enabled": true,
+    "image_forwarding": true
+  }
+}
